@@ -1,0 +1,6 @@
+framework module Pods_CorporateBanking {
+  umbrella header "Pods-CorporateBanking-umbrella.h"
+
+  export *
+  module * { export * }
+}

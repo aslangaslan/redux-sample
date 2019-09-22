@@ -15,6 +15,9 @@
 		729D68122337A5CA00E69D79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 729D68102337A5CA00E69D79 /* LaunchScreen.storyboard */; };
 		729D681D2337A5CA00E69D79 /* CorporateBankingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D681C2337A5CA00E69D79 /* CorporateBankingTests.swift */; };
 		729D68282337A5CA00E69D79 /* CorporateBankingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D68272337A5CA00E69D79 /* CorporateBankingUITests.swift */; };
+		AA0C34EF32465A4E05A8F01A /* Pods_CorporateBankingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126CBB3C2F40473E1B18CF75 /* Pods_CorporateBankingUITests.framework */; };
+		C1DDEA72095F95CADA6B559C /* Pods_CorporateBankingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C183767396EC768844D2CF5C /* Pods_CorporateBankingTests.framework */; };
+		D737222ACB9996D7472DC9D4 /* Pods_CorporateBanking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E3D2049A9B89CA01D124411 /* Pods_CorporateBanking.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		126CBB3C2F40473E1B18CF75 /* Pods_CorporateBankingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CorporateBankingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		173A520EC630FD8D80362CBE /* Pods-CorporateBankingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CorporateBankingUITests.debug.xcconfig"; path = "Target Support Files/Pods-CorporateBankingUITests/Pods-CorporateBankingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		54F218058D8AEDFA6F89BA97 /* Pods-CorporateBankingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CorporateBankingTests.release.xcconfig"; path = "Target Support Files/Pods-CorporateBankingTests/Pods-CorporateBankingTests.release.xcconfig"; sourceTree = "<group>"; };
+		7194282F892C201444D5B430 /* Pods-CorporateBankingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CorporateBankingUITests.release.xcconfig"; path = "Target Support Files/Pods-CorporateBankingUITests/Pods-CorporateBankingUITests.release.xcconfig"; sourceTree = "<group>"; };
 		729D68022337A5C500E69D79 /* CorporateBanking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CorporateBanking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		729D68052337A5C600E69D79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		729D68072337A5C600E69D79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		729D68232337A5CA00E69D79 /* CorporateBankingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CorporateBankingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		729D68272337A5CA00E69D79 /* CorporateBankingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorporateBankingUITests.swift; sourceTree = "<group>"; };
 		729D68292337A5CA00E69D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		764A59842D1B06E9D3649D70 /* Pods-CorporateBankingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CorporateBankingTests.debug.xcconfig"; path = "Target Support Files/Pods-CorporateBankingTests/Pods-CorporateBankingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E3D2049A9B89CA01D124411 /* Pods_CorporateBanking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CorporateBanking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C183767396EC768844D2CF5C /* Pods_CorporateBankingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CorporateBankingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4CB38729B705746E0FD53F /* Pods-CorporateBanking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CorporateBanking.debug.xcconfig"; path = "Target Support Files/Pods-CorporateBanking/Pods-CorporateBanking.debug.xcconfig"; sourceTree = "<group>"; };
+		F319EE71696689317AFA1AAA /* Pods-CorporateBanking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CorporateBanking.release.xcconfig"; path = "Target Support Files/Pods-CorporateBanking/Pods-CorporateBanking.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D737222ACB9996D7472DC9D4 /* Pods_CorporateBanking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1DDEA72095F95CADA6B559C /* Pods_CorporateBankingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA0C34EF32465A4E05A8F01A /* Pods_CorporateBankingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		419386C870934BA4E94100C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E3D2049A9B89CA01D124411 /* Pods_CorporateBanking.framework */,
+				C183767396EC768844D2CF5C /* Pods_CorporateBankingTests.framework */,
+				126CBB3C2F40473E1B18CF75 /* Pods_CorporateBankingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45A0EBE14B806A37AE555412 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED4CB38729B705746E0FD53F /* Pods-CorporateBanking.debug.xcconfig */,
+				F319EE71696689317AFA1AAA /* Pods-CorporateBanking.release.xcconfig */,
+				764A59842D1B06E9D3649D70 /* Pods-CorporateBankingTests.debug.xcconfig */,
+				54F218058D8AEDFA6F89BA97 /* Pods-CorporateBankingTests.release.xcconfig */,
+				173A520EC630FD8D80362CBE /* Pods-CorporateBankingUITests.debug.xcconfig */,
+				7194282F892C201444D5B430 /* Pods-CorporateBankingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		729D67F92337A5C500E69D79 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				729D681B2337A5CA00E69D79 /* CorporateBankingTests */,
 				729D68262337A5CA00E69D79 /* CorporateBankingUITests */,
 				729D68032337A5C500E69D79 /* Products */,
+				45A0EBE14B806A37AE555412 /* Pods */,
+				419386C870934BA4E94100C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 729D682C2337A5CA00E69D79 /* Build configuration list for PBXNativeTarget "CorporateBanking" */;
 			buildPhases = (
+				DCEC5ACB72BFA23B4E11BE90 /* [CP] Check Pods Manifest.lock */,
 				729D67FE2337A5C500E69D79 /* Sources */,
 				729D67FF2337A5C500E69D79 /* Frameworks */,
 				729D68002337A5C500E69D79 /* Resources */,
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 729D682F2337A5CA00E69D79 /* Build configuration list for PBXNativeTarget "CorporateBankingTests" */;
 			buildPhases = (
+				F7C823689A14E61A9E86E185 /* [CP] Check Pods Manifest.lock */,
 				729D68142337A5CA00E69D79 /* Sources */,
 				729D68152337A5CA00E69D79 /* Frameworks */,
 				729D68162337A5CA00E69D79 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 729D68322337A5CA00E69D79 /* Build configuration list for PBXNativeTarget "CorporateBankingUITests" */;
 			buildPhases = (
+				E394DF1EE9EC73DDCC70BE09 /* [CP] Check Pods Manifest.lock */,
 				729D681F2337A5CA00E69D79 /* Sources */,
 				729D68202337A5CA00E69D79 /* Frameworks */,
 				729D68212337A5CA00E69D79 /* Resources */,
@@ -253,6 +297,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DCEC5ACB72BFA23B4E11BE90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CorporateBanking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E394DF1EE9EC73DDCC70BE09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CorporateBankingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7C823689A14E61A9E86E185 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CorporateBankingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		729D67FE2337A5C500E69D79 /* Sources */ = {
@@ -432,6 +545,7 @@
 		};
 		729D682D2337A5CA00E69D79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4CB38729B705746E0FD53F /* Pods-CorporateBanking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +564,7 @@
 		};
 		729D682E2337A5CA00E69D79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F319EE71696689317AFA1AAA /* Pods-CorporateBanking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +583,7 @@
 		};
 		729D68302337A5CA00E69D79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 764A59842D1B06E9D3649D70 /* Pods-CorporateBankingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +606,7 @@
 		};
 		729D68312337A5CA00E69D79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54F218058D8AEDFA6F89BA97 /* Pods-CorporateBankingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +629,7 @@
 		};
 		729D68332337A5CA00E69D79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 173A520EC630FD8D80362CBE /* Pods-CorporateBankingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +650,7 @@
 		};
 		729D68342337A5CA00E69D79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7194282F892C201444D5B430 /* Pods-CorporateBankingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
