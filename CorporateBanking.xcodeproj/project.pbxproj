@@ -15,6 +15,9 @@
 		729D68122337A5CA00E69D79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 729D68102337A5CA00E69D79 /* LaunchScreen.storyboard */; };
 		729D681D2337A5CA00E69D79 /* CorporateBankingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D681C2337A5CA00E69D79 /* CorporateBankingTests.swift */; };
 		729D68282337A5CA00E69D79 /* CorporateBankingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D68272337A5CA00E69D79 /* CorporateBankingUITests.swift */; };
+		729D68392337ADDC00E69D79 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D68382337ADDC00E69D79 /* AppReducer.swift */; };
+		729D683B2337ADFC00E69D79 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D683A2337ADFC00E69D79 /* AppState.swift */; };
+		729D683D2337AE2F00E69D79 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D683C2337AE2F00E69D79 /* Actions.swift */; };
 		AA0C34EF32465A4E05A8F01A /* Pods_CorporateBankingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126CBB3C2F40473E1B18CF75 /* Pods_CorporateBankingUITests.framework */; };
 		C1DDEA72095F95CADA6B559C /* Pods_CorporateBankingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C183767396EC768844D2CF5C /* Pods_CorporateBankingTests.framework */; };
 		D737222ACB9996D7472DC9D4 /* Pods_CorporateBanking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E3D2049A9B89CA01D124411 /* Pods_CorporateBanking.framework */; };
@@ -56,6 +59,9 @@
 		729D68232337A5CA00E69D79 /* CorporateBankingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CorporateBankingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		729D68272337A5CA00E69D79 /* CorporateBankingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorporateBankingUITests.swift; sourceTree = "<group>"; };
 		729D68292337A5CA00E69D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		729D68382337ADDC00E69D79 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		729D683A2337ADFC00E69D79 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		729D683C2337AE2F00E69D79 /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
 		764A59842D1B06E9D3649D70 /* Pods-CorporateBankingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CorporateBankingTests.debug.xcconfig"; path = "Target Support Files/Pods-CorporateBankingTests/Pods-CorporateBankingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8E3D2049A9B89CA01D124411 /* Pods_CorporateBanking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CorporateBanking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C183767396EC768844D2CF5C /* Pods_CorporateBankingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CorporateBankingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,6 +180,7 @@
 		729D68352337ACCA00E69D79 /* Reducers */ = {
 			isa = PBXGroup;
 			children = (
+				729D68382337ADDC00E69D79 /* AppReducer.swift */,
 			);
 			path = Reducers;
 			sourceTree = "<group>";
@@ -181,6 +188,7 @@
 		729D68362337ACD500E69D79 /* Actions */ = {
 			isa = PBXGroup;
 			children = (
+				729D683C2337AE2F00E69D79 /* Actions.swift */,
 			);
 			path = Actions;
 			sourceTree = "<group>";
@@ -188,6 +196,7 @@
 		729D68372337AD4600E69D79 /* State */ = {
 			isa = PBXGroup;
 			children = (
+				729D683A2337ADFC00E69D79 /* AppState.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -419,7 +428,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				729D680A2337A5C600E69D79 /* ViewController.swift in Sources */,
+				729D683B2337ADFC00E69D79 /* AppState.swift in Sources */,
 				729D68062337A5C600E69D79 /* AppDelegate.swift in Sources */,
+				729D683D2337AE2F00E69D79 /* Actions.swift in Sources */,
+				729D68392337ADDC00E69D79 /* AppReducer.swift in Sources */,
 				729D68082337A5C600E69D79 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

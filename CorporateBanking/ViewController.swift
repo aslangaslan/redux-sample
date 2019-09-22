@@ -8,15 +8,33 @@
 
 import UIKit
 import WebKit
+import ReSwift
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, StoreSubscriber, WKNavigationDelegate {
+    
+    typealias StoreSubscriberStateType = AppState
+    
     @IBOutlet weak var webView: WKWebView!
+    @IBOutlet weak var activityInd: UIActivityIndicatorView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        webView.load(URLRequest(url: URL(string: "https://google.com")!))
+        webView.navigationDelegate = self
+        
+        mainStore.subscribe(self)
+        mainStore.dispatch(openUrl())
+        activityInd.startAnimating()
+    }
+    
+    func newState(state: AppState) {
+        if let urlRequest = state.urlRequest {
+            webView.load(urlRequest)
+        }
+    }
+    
+    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+        activityInd.stopAnimating()
     }
 }
 
