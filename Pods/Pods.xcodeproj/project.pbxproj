@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06E21E8E1B5270DD7340BD90E447C6C4 /* StoreSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74D79A15753D892647C7F1CCD4D2AE4 /* StoreSubscriber.swift */; };
 		0FF1DDBD605F8E865EA6137ED2E62B74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		3B44E1B63D70DF2A78BBAA6347F5648D /* Pods-CorporateBankingTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBBF70CFA7509F1C42C80244E734053 /* Pods-CorporateBankingTests-dummy.m */; };
-		6D8B01CC3F314024A9582C2C69B5FC81 /* Pods-CorporateBanking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E6CBF87E08790B51CB88CE3C97D70C /* Pods-CorporateBanking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EA85845046707B96C8A3FE98D1DD204 /* Pods-CorporateBankingTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50EE04C429F32BA705B54B89E559C19A /* Pods-CorporateBankingTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FBB8FEA764D77C96A93AB2EC7E516D6 /* Pods-CorporateBanking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D51AE12054058ABD3BAEA66335BCDB /* Pods-CorporateBanking-dummy.m */; };
-		763E3986CF716594C0B99339158C4538 /* Pods-CorporateBankingUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B031C8C085A3D1B37BD92F02E03AD32 /* Pods-CorporateBankingUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89BE111963BFCB8C87C0B581C94F0739 /* Pods-CorporateBankingUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81607DC301DB1A0A24BE867C009F49FD /* Pods-CorporateBankingUITests-dummy.m */; };
-		B9470FD53EF19E5EBCE7364215E9B52D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		3B44E1B63D70DF2A78BBAA6347F5648D /* Pods-CorporateBankingTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7191A81B9818A941AECB5E9B454EE0 /* Pods-CorporateBankingTests-dummy.m */; };
+		3EF18F2A83CD5FD4A58873A350BDF3F6 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97D77A1962ED035EF2D8FF9C889603C /* Action.swift */; };
+		56C29F43682951EE654039B91AC3BE91 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0623DD82FFA0A0BB870228CDBAF69AB6 /* State.swift */; };
+		67F905D9D74248FE4B36E5AF83C17965 /* TypeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA50F6B333B0DB07DBCAF100C81BC07 /* TypeHelper.swift */; };
+		6EA85845046707B96C8A3FE98D1DD204 /* Pods-CorporateBankingTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39646C454B587CB001032CB34129D74C /* Pods-CorporateBankingTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		763E3986CF716594C0B99339158C4538 /* Pods-CorporateBankingUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AD6B2674EB95D9B0BC7B5755257A536 /* Pods-CorporateBankingUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89BE111963BFCB8C87C0B581C94F0739 /* Pods-CorporateBankingUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4B363777177A7B87779299D3350C87 /* Pods-CorporateBankingUITests-dummy.m */; };
+		8DF917C5CEA5042B19DF1420AEA922D0 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DBC397407A66C4C139EF460E199CA4 /* Store.swift */; };
+		8E465D3BFA70A6F0D71EDFD06633896F /* Pods-CorporateBanking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73DE4F8487C7DCACE93694D5C3C1FA52 /* Pods-CorporateBanking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D06D96B3AD5A8A536EFFAD86231B402 /* ReSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4476CFDE7DFA9E88C92A32319ED486BE /* ReSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F001001704E6B0B3B48F7AF61A300D1 /* Assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D5CD7EE45B62A87459B9074DD5E9E8 /* Assertions.swift */; };
+		A37601066F6377E84784F56557C5E37B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		BD9971C4E93B7DE37FDC838660E0A4E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		BDE37A177FEBBB93C0CF845E6FA13D3E /* Pods-CorporateBanking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA35C18263241BE836A9D164B71D206E /* Pods-CorporateBanking-dummy.m */; };
+		D0778EEA54A10B4C667235442E253B02 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309E61CDE6455A641D57E7E1015980A3 /* Reducer.swift */; };
+		D77B86E622C5F81672CAFB6F5975D8F2 /* StoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AAD59FA48FD47B56287E5C79358BF1 /* StoreType.swift */; };
+		DD41A1315D588FE7A1AA93459749D187 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5EECFF866725C8B636514B38B8D59F /* Subscription.swift */; };
+		ECCDB06D8FE25AC94EBC14B3AD204304 /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650D57603C9245A829ADDDD37749E447 /* Middleware.swift */; };
+		F3F4C6939D58344C65C8BDE1ED0CC343 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		F60FCD2C79DA97023A725E872B1E2D63 /* DispatchingStoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B516B7DE180A4FD7B54CD064FBF49 /* DispatchingStoreType.swift */; };
+		F77AE17AA90A3E8EDB2FB71523623717 /* ReSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E55A6D90348FA26B2D5EDCCD198422 /* ReSwift-dummy.m */; };
+		FFCE4DA66C5742856FFEEADBACF235C2 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB5E04031140E6D73F6F0D8D4B49848 /* Coding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,56 +38,91 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B40918DC7A815C652B418A7CFC533167;
+			remoteGlobalIDString = 433A77866DCF8447F4828F30D1A1642C;
 			remoteInfo = "Pods-CorporateBanking";
 		};
 		D421ADD4C4883C7CA17B6CAE41D272D2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B40918DC7A815C652B418A7CFC533167;
+			remoteGlobalIDString = 433A77866DCF8447F4828F30D1A1642C;
 			remoteInfo = "Pods-CorporateBanking";
+		};
+		EEDA37B984B726047C4D51DD4B9036F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06A34427C22F307D518EF6B83B76871C;
+			remoteInfo = ReSwift;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B031C8C085A3D1B37BD92F02E03AD32 /* Pods-CorporateBankingUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CorporateBankingUITests-umbrella.h"; sourceTree = "<group>"; };
-		10110D6759FF43CABF318E76CE27ED8C /* Pods-CorporateBankingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CorporateBankingTests.debug.xcconfig"; sourceTree = "<group>"; };
-		20AC56DB4EE48536FE824D1286D6FC2F /* Pods-CorporateBankingUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CorporateBankingUITests-Info.plist"; sourceTree = "<group>"; };
-		28E6CBF87E08790B51CB88CE3C97D70C /* Pods-CorporateBanking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CorporateBanking-umbrella.h"; sourceTree = "<group>"; };
-		34E25C2013E3D9450A7755B384B4D2FC /* Pods-CorporateBankingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CorporateBankingTests.release.xcconfig"; sourceTree = "<group>"; };
-		370C131F9D79829D8104D5378FDFD9F2 /* Pods-CorporateBanking-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CorporateBanking-acknowledgements.plist"; sourceTree = "<group>"; };
-		3D06982443EDF5F9DF367C4CCE26C90A /* Pods-CorporateBankingUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CorporateBankingUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		41A224F07DC9117BB3F909E60FE14853 /* Pods-CorporateBanking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CorporateBanking.modulemap"; sourceTree = "<group>"; };
-		41D36BC2819B48D0669E482F211840DE /* Pods-CorporateBankingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CorporateBankingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		50EE04C429F32BA705B54B89E559C19A /* Pods-CorporateBankingTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CorporateBankingTests-umbrella.h"; sourceTree = "<group>"; };
-		5A30F9C1949E1E5EA9D965206E8C7A0E /* Pods_CorporateBankingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CorporateBankingUITests.framework; path = "Pods-CorporateBankingUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		75627F5EFA90A0F21998F74EA4383AEF /* Pods-CorporateBanking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CorporateBanking.release.xcconfig"; sourceTree = "<group>"; };
-		7CDA1E7CB140131176232A9009A8E25B /* Pods-CorporateBankingTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CorporateBankingTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		81607DC301DB1A0A24BE867C009F49FD /* Pods-CorporateBankingUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CorporateBankingUITests-dummy.m"; sourceTree = "<group>"; };
-		83891254BBF101FD0866437F95B4F352 /* Pods-CorporateBanking-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CorporateBanking-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8781C30FA5DC2D02CF2E290750CBE301 /* Pods-CorporateBankingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CorporateBankingUITests.release.xcconfig"; sourceTree = "<group>"; };
-		88EC27BEA95D5480BB6435EE3974DA6D /* Pods-CorporateBankingTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CorporateBankingTests.modulemap"; sourceTree = "<group>"; };
+		03A12DC474920A8307D6F581C400BA44 /* Pods-CorporateBankingTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CorporateBankingTests.modulemap"; sourceTree = "<group>"; };
+		0623DD82FFA0A0BB870228CDBAF69AB6 /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = ReSwift/CoreTypes/State.swift; sourceTree = "<group>"; };
+		1D1942899B3B7B383D3CF54A6665A4B1 /* Pods-CorporateBankingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CorporateBankingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1FA48B97CB6B535B7886D7F15E466188 /* Pods-CorporateBankingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CorporateBankingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		25E55A6D90348FA26B2D5EDCCD198422 /* ReSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReSwift-dummy.m"; sourceTree = "<group>"; };
+		2709FC13AD5F3053744B9D843DE32272 /* Pods-CorporateBankingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CorporateBankingTests.release.xcconfig"; sourceTree = "<group>"; };
+		28DBC397407A66C4C139EF460E199CA4 /* Store.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Store.swift; path = ReSwift/CoreTypes/Store.swift; sourceTree = "<group>"; };
+		2AB4698D21B087E76500713DF5D0A21A /* Pods-CorporateBankingUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CorporateBankingUITests-Info.plist"; sourceTree = "<group>"; };
+		2B03A41DA81414F59726CCF5D211E7D9 /* Pods_CorporateBankingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CorporateBankingUITests.framework; path = "Pods-CorporateBankingUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5E2D7FD03673F72A49361D88182528 /* ReSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReSwift.xcconfig; sourceTree = "<group>"; };
+		309E61CDE6455A641D57E7E1015980A3 /* Reducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reducer.swift; path = ReSwift/CoreTypes/Reducer.swift; sourceTree = "<group>"; };
+		3695FDA94CECE4935480FFAF277B4574 /* Pods-CorporateBanking-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CorporateBanking-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39646C454B587CB001032CB34129D74C /* Pods-CorporateBankingTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CorporateBankingTests-umbrella.h"; sourceTree = "<group>"; };
+		3AD6B2674EB95D9B0BC7B5755257A536 /* Pods-CorporateBankingUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CorporateBankingUITests-umbrella.h"; sourceTree = "<group>"; };
+		3EF86F8DE20C9C76723940B27B95042A /* Pods-CorporateBankingUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CorporateBankingUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		42D61030995078AA1250D7237841D19A /* Pods_CorporateBankingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CorporateBankingTests.framework; path = "Pods-CorporateBankingTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4476CFDE7DFA9E88C92A32319ED486BE /* ReSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReSwift-umbrella.h"; sourceTree = "<group>"; };
+		4E015F4E126CE6610E8EAE43DFEB574F /* Pods-CorporateBanking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CorporateBanking.modulemap"; sourceTree = "<group>"; };
+		52C68952F7289909F2C30D7457F3D43D /* ReSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReSwift-Info.plist"; sourceTree = "<group>"; };
+		5C9505EE015CEE75EC8BCC4B205152F6 /* ReSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReSwift.framework; path = ReSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		650D57603C9245A829ADDDD37749E447 /* Middleware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Middleware.swift; path = ReSwift/CoreTypes/Middleware.swift; sourceTree = "<group>"; };
+		6DAAD7643F11D89D0D72BA0B0E4763D9 /* ReSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReSwift.modulemap; sourceTree = "<group>"; };
+		725B516B7DE180A4FD7B54CD064FBF49 /* DispatchingStoreType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchingStoreType.swift; path = ReSwift/CoreTypes/DispatchingStoreType.swift; sourceTree = "<group>"; };
+		73DE4F8487C7DCACE93694D5C3C1FA52 /* Pods-CorporateBanking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CorporateBanking-umbrella.h"; sourceTree = "<group>"; };
+		7891308EBC0C7D180A3A51E0C6C03EDF /* Pods-CorporateBankingUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CorporateBankingUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7C4B363777177A7B87779299D3350C87 /* Pods-CorporateBankingUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CorporateBankingUITests-dummy.m"; sourceTree = "<group>"; };
+		88AAD59FA48FD47B56287E5C79358BF1 /* StoreType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreType.swift; path = ReSwift/CoreTypes/StoreType.swift; sourceTree = "<group>"; };
+		99FDFD347916F1848BBE1BD5A5B6D0AC /* Pods-CorporateBanking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CorporateBanking-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A8A69D6FAFEC5067A32F2877597B0B14 /* Pods-CorporateBanking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CorporateBanking-Info.plist"; sourceTree = "<group>"; };
-		AAAB1CB63EAF73618F05634363B7E786 /* Pods_CorporateBanking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CorporateBanking.framework; path = "Pods-CorporateBanking.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDCA90C3B5E7F921BB6FAE1A101B6A8A /* Pods-CorporateBankingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CorporateBankingUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		CB14EF86886A47B0BCA42C93FCECEB21 /* Pods-CorporateBankingTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CorporateBankingTests-Info.plist"; sourceTree = "<group>"; };
+		9DDA7D6B93A92BBD1A109CE05946CBDB /* Pods-CorporateBankingTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CorporateBankingTests-Info.plist"; sourceTree = "<group>"; };
+		9DE0DF28A9C7B109C50AD3213EBB442A /* Pods_CorporateBanking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CorporateBanking.framework; path = "Pods-CorporateBanking.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2912621A7EC0FA0A007AE5024809E91 /* Pods-CorporateBanking-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CorporateBanking-acknowledgements.plist"; sourceTree = "<group>"; };
+		A74D79A15753D892647C7F1CCD4D2AE4 /* StoreSubscriber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreSubscriber.swift; path = ReSwift/CoreTypes/StoreSubscriber.swift; sourceTree = "<group>"; };
+		AAB5E04031140E6D73F6F0D8D4B49848 /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = ReSwift/Utils/Coding.swift; sourceTree = "<group>"; };
+		AD7191A81B9818A941AECB5E9B454EE0 /* Pods-CorporateBankingTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CorporateBankingTests-dummy.m"; sourceTree = "<group>"; };
+		B0F18C73D18A9A2ADA2105964726D790 /* Pods-CorporateBanking-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CorporateBanking-frameworks.sh"; sourceTree = "<group>"; };
+		B45D550987181E88278A24B403239A87 /* Pods-CorporateBankingUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CorporateBankingUITests.modulemap"; sourceTree = "<group>"; };
+		C4D5CD7EE45B62A87459B9074DD5E9E8 /* Assertions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assertions.swift; path = ReSwift/Utils/Assertions.swift; sourceTree = "<group>"; };
+		C5D6F2BCC5AB033C088A6D7B3A844966 /* Pods-CorporateBankingTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CorporateBankingTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E4181722597C18518110EF936B6FB153 /* Pods_CorporateBankingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CorporateBankingTests.framework; path = "Pods-CorporateBankingTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6D51AE12054058ABD3BAEA66335BCDB /* Pods-CorporateBanking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CorporateBanking-dummy.m"; sourceTree = "<group>"; };
-		ED844C455DB64A89E84AB3A1E5B66040 /* Pods-CorporateBankingUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CorporateBankingUITests.modulemap"; sourceTree = "<group>"; };
-		EF7F33AE92D1E9FAE5CCF149DC2955ED /* Pods-CorporateBanking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CorporateBanking.debug.xcconfig"; sourceTree = "<group>"; };
-		EFBBF70CFA7509F1C42C80244E734053 /* Pods-CorporateBankingTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CorporateBankingTests-dummy.m"; sourceTree = "<group>"; };
-		F1F6F08C31FFCE1D55F3D4883E6F9141 /* Pods-CorporateBankingUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CorporateBankingUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB5EECFF866725C8B636514B38B8D59F /* Subscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subscription.swift; path = ReSwift/CoreTypes/Subscription.swift; sourceTree = "<group>"; };
+		CFA6DB2CE360A9B466585FE05D472674 /* Pods-CorporateBanking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CorporateBanking.debug.xcconfig"; sourceTree = "<group>"; };
+		D1D859D2A36280BE3AD44156367F39B5 /* Pods-CorporateBankingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CorporateBankingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E04E147A030E851333EDBE869944F19C /* Pods-CorporateBanking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CorporateBanking.release.xcconfig"; sourceTree = "<group>"; };
+		E97D77A1962ED035EF2D8FF9C889603C /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = ReSwift/CoreTypes/Action.swift; sourceTree = "<group>"; };
+		EA35C18263241BE836A9D164B71D206E /* Pods-CorporateBanking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CorporateBanking-dummy.m"; sourceTree = "<group>"; };
+		EC4615EFD82AA854933DC61C08AB1699 /* Pods-CorporateBankingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CorporateBankingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFFF5D3BDADC85D38023A8D1E56585AA /* ReSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReSwift-prefix.pch"; sourceTree = "<group>"; };
+		FFA50F6B333B0DB07DBCAF100C81BC07 /* TypeHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypeHelper.swift; path = ReSwift/Utils/TypeHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A7635E23140D63D2DC3DB3BA24F22F58 /* Frameworks */ = {
+		6E615E8437810518095AAF044A6AB39E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9470FD53EF19E5EBCE7364215E9B52D /* Foundation.framework in Frameworks */,
+				A37601066F6377E84784F56557C5E37B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F79088280043154775357278B8CF98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F4C6939D58344C65C8BDE1ED0CC343 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,60 +145,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03A5FF2BD23528C4BBC144BAFBC72A3B /* Pods-CorporateBanking */ = {
+		116CE2AA7FB630DB4E2773AE7E41BCA0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				41A224F07DC9117BB3F909E60FE14853 /* Pods-CorporateBanking.modulemap */,
-				83891254BBF101FD0866437F95B4F352 /* Pods-CorporateBanking-acknowledgements.markdown */,
-				370C131F9D79829D8104D5378FDFD9F2 /* Pods-CorporateBanking-acknowledgements.plist */,
-				E6D51AE12054058ABD3BAEA66335BCDB /* Pods-CorporateBanking-dummy.m */,
-				A8A69D6FAFEC5067A32F2877597B0B14 /* Pods-CorporateBanking-Info.plist */,
-				28E6CBF87E08790B51CB88CE3C97D70C /* Pods-CorporateBanking-umbrella.h */,
-				EF7F33AE92D1E9FAE5CCF149DC2955ED /* Pods-CorporateBanking.debug.xcconfig */,
-				75627F5EFA90A0F21998F74EA4383AEF /* Pods-CorporateBanking.release.xcconfig */,
+				E9B6A6D32089DDFE5861F94E84DDC411 /* Pods-CorporateBanking */,
+				C4ED0E8847452726E04ECA03C004A9E3 /* Pods-CorporateBankingTests */,
+				1FC89383503E7F253D5DD0AAFA8DAE92 /* Pods-CorporateBankingUITests */,
 			);
-			name = "Pods-CorporateBanking";
-			path = "Target Support Files/Pods-CorporateBanking";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4C0419D7431ABA0397B77A055D91F5AF /* Pods-CorporateBankingTests */ = {
+		1FC89383503E7F253D5DD0AAFA8DAE92 /* Pods-CorporateBankingUITests */ = {
 			isa = PBXGroup;
 			children = (
-				88EC27BEA95D5480BB6435EE3974DA6D /* Pods-CorporateBankingTests.modulemap */,
-				41D36BC2819B48D0669E482F211840DE /* Pods-CorporateBankingTests-acknowledgements.markdown */,
-				7CDA1E7CB140131176232A9009A8E25B /* Pods-CorporateBankingTests-acknowledgements.plist */,
-				EFBBF70CFA7509F1C42C80244E734053 /* Pods-CorporateBankingTests-dummy.m */,
-				CB14EF86886A47B0BCA42C93FCECEB21 /* Pods-CorporateBankingTests-Info.plist */,
-				50EE04C429F32BA705B54B89E559C19A /* Pods-CorporateBankingTests-umbrella.h */,
-				10110D6759FF43CABF318E76CE27ED8C /* Pods-CorporateBankingTests.debug.xcconfig */,
-				34E25C2013E3D9450A7755B384B4D2FC /* Pods-CorporateBankingTests.release.xcconfig */,
-			);
-			name = "Pods-CorporateBankingTests";
-			path = "Target Support Files/Pods-CorporateBankingTests";
-			sourceTree = "<group>";
-		};
-		6C65D011C611DBF100CD34C890E3972C /* Pods-CorporateBankingUITests */ = {
-			isa = PBXGroup;
-			children = (
-				ED844C455DB64A89E84AB3A1E5B66040 /* Pods-CorporateBankingUITests.modulemap */,
-				F1F6F08C31FFCE1D55F3D4883E6F9141 /* Pods-CorporateBankingUITests-acknowledgements.markdown */,
-				3D06982443EDF5F9DF367C4CCE26C90A /* Pods-CorporateBankingUITests-acknowledgements.plist */,
-				81607DC301DB1A0A24BE867C009F49FD /* Pods-CorporateBankingUITests-dummy.m */,
-				20AC56DB4EE48536FE824D1286D6FC2F /* Pods-CorporateBankingUITests-Info.plist */,
-				0B031C8C085A3D1B37BD92F02E03AD32 /* Pods-CorporateBankingUITests-umbrella.h */,
-				BDCA90C3B5E7F921BB6FAE1A101B6A8A /* Pods-CorporateBankingUITests.debug.xcconfig */,
-				8781C30FA5DC2D02CF2E290750CBE301 /* Pods-CorporateBankingUITests.release.xcconfig */,
+				B45D550987181E88278A24B403239A87 /* Pods-CorporateBankingUITests.modulemap */,
+				7891308EBC0C7D180A3A51E0C6C03EDF /* Pods-CorporateBankingUITests-acknowledgements.markdown */,
+				3EF86F8DE20C9C76723940B27B95042A /* Pods-CorporateBankingUITests-acknowledgements.plist */,
+				7C4B363777177A7B87779299D3350C87 /* Pods-CorporateBankingUITests-dummy.m */,
+				2AB4698D21B087E76500713DF5D0A21A /* Pods-CorporateBankingUITests-Info.plist */,
+				3AD6B2674EB95D9B0BC7B5755257A536 /* Pods-CorporateBankingUITests-umbrella.h */,
+				EC4615EFD82AA854933DC61C08AB1699 /* Pods-CorporateBankingUITests.debug.xcconfig */,
+				1FA48B97CB6B535B7886D7F15E466188 /* Pods-CorporateBankingUITests.release.xcconfig */,
 			);
 			name = "Pods-CorporateBankingUITests";
 			path = "Target Support Files/Pods-CorporateBankingUITests";
 			sourceTree = "<group>";
 		};
-		98E546C280640F4D725489A713B3528C /* Products */ = {
+		33F40E45198B34332CBB282D4D118C3D /* ReSwift */ = {
 			isa = PBXGroup;
 			children = (
-				AAAB1CB63EAF73618F05634363B7E786 /* Pods_CorporateBanking.framework */,
-				E4181722597C18518110EF936B6FB153 /* Pods_CorporateBankingTests.framework */,
-				5A30F9C1949E1E5EA9D965206E8C7A0E /* Pods_CorporateBankingUITests.framework */,
+				E97D77A1962ED035EF2D8FF9C889603C /* Action.swift */,
+				C4D5CD7EE45B62A87459B9074DD5E9E8 /* Assertions.swift */,
+				AAB5E04031140E6D73F6F0D8D4B49848 /* Coding.swift */,
+				725B516B7DE180A4FD7B54CD064FBF49 /* DispatchingStoreType.swift */,
+				650D57603C9245A829ADDDD37749E447 /* Middleware.swift */,
+				309E61CDE6455A641D57E7E1015980A3 /* Reducer.swift */,
+				0623DD82FFA0A0BB870228CDBAF69AB6 /* State.swift */,
+				28DBC397407A66C4C139EF460E199CA4 /* Store.swift */,
+				A74D79A15753D892647C7F1CCD4D2AE4 /* StoreSubscriber.swift */,
+				88AAD59FA48FD47B56287E5C79358BF1 /* StoreType.swift */,
+				CB5EECFF866725C8B636514B38B8D59F /* Subscription.swift */,
+				FFA50F6B333B0DB07DBCAF100C81BC07 /* TypeHelper.swift */,
+				EBFDF7DE98C46E5D47B31FCD3152AE88 /* Support Files */,
+			);
+			name = ReSwift;
+			path = ReSwift;
+			sourceTree = "<group>";
+		};
+		583DA34B45D505A84B0E65D692B86D5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33F40E45198B34332CBB282D4D118C3D /* ReSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5F589F55B2854AB03D91A0AD0C354E93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DE0DF28A9C7B109C50AD3213EBB442A /* Pods_CorporateBanking.framework */,
+				42D61030995078AA1250D7237841D19A /* Pods_CorporateBankingTests.framework */,
+				2B03A41DA81414F59726CCF5D211E7D9 /* Pods_CorporateBankingUITests.framework */,
+				5C9505EE015CEE75EC8BCC4B205152F6 /* ReSwift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -161,14 +219,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C10AF168EA263331F90EBEA8B807D720 /* Targets Support Files */ = {
+		C4ED0E8847452726E04ECA03C004A9E3 /* Pods-CorporateBankingTests */ = {
 			isa = PBXGroup;
 			children = (
-				03A5FF2BD23528C4BBC144BAFBC72A3B /* Pods-CorporateBanking */,
-				4C0419D7431ABA0397B77A055D91F5AF /* Pods-CorporateBankingTests */,
-				6C65D011C611DBF100CD34C890E3972C /* Pods-CorporateBankingUITests */,
+				03A12DC474920A8307D6F581C400BA44 /* Pods-CorporateBankingTests.modulemap */,
+				1D1942899B3B7B383D3CF54A6665A4B1 /* Pods-CorporateBankingTests-acknowledgements.markdown */,
+				C5D6F2BCC5AB033C088A6D7B3A844966 /* Pods-CorporateBankingTests-acknowledgements.plist */,
+				AD7191A81B9818A941AECB5E9B454EE0 /* Pods-CorporateBankingTests-dummy.m */,
+				9DDA7D6B93A92BBD1A109CE05946CBDB /* Pods-CorporateBankingTests-Info.plist */,
+				39646C454B587CB001032CB34129D74C /* Pods-CorporateBankingTests-umbrella.h */,
+				D1D859D2A36280BE3AD44156367F39B5 /* Pods-CorporateBankingTests.debug.xcconfig */,
+				2709FC13AD5F3053744B9D843DE32272 /* Pods-CorporateBankingTests.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-CorporateBankingTests";
+			path = "Target Support Files/Pods-CorporateBankingTests";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -176,8 +240,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				98E546C280640F4D725489A713B3528C /* Products */,
-				C10AF168EA263331F90EBEA8B807D720 /* Targets Support Files */,
+				583DA34B45D505A84B0E65D692B86D5B /* Pods */,
+				5F589F55B2854AB03D91A0AD0C354E93 /* Products */,
+				116CE2AA7FB630DB4E2773AE7E41BCA0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -189,9 +254,48 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E9B6A6D32089DDFE5861F94E84DDC411 /* Pods-CorporateBanking */ = {
+			isa = PBXGroup;
+			children = (
+				4E015F4E126CE6610E8EAE43DFEB574F /* Pods-CorporateBanking.modulemap */,
+				3695FDA94CECE4935480FFAF277B4574 /* Pods-CorporateBanking-acknowledgements.markdown */,
+				A2912621A7EC0FA0A007AE5024809E91 /* Pods-CorporateBanking-acknowledgements.plist */,
+				EA35C18263241BE836A9D164B71D206E /* Pods-CorporateBanking-dummy.m */,
+				B0F18C73D18A9A2ADA2105964726D790 /* Pods-CorporateBanking-frameworks.sh */,
+				99FDFD347916F1848BBE1BD5A5B6D0AC /* Pods-CorporateBanking-Info.plist */,
+				73DE4F8487C7DCACE93694D5C3C1FA52 /* Pods-CorporateBanking-umbrella.h */,
+				CFA6DB2CE360A9B466585FE05D472674 /* Pods-CorporateBanking.debug.xcconfig */,
+				E04E147A030E851333EDBE869944F19C /* Pods-CorporateBanking.release.xcconfig */,
+			);
+			name = "Pods-CorporateBanking";
+			path = "Target Support Files/Pods-CorporateBanking";
+			sourceTree = "<group>";
+		};
+		EBFDF7DE98C46E5D47B31FCD3152AE88 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DAAD7643F11D89D0D72BA0B0E4763D9 /* ReSwift.modulemap */,
+				2F5E2D7FD03673F72A49361D88182528 /* ReSwift.xcconfig */,
+				25E55A6D90348FA26B2D5EDCCD198422 /* ReSwift-dummy.m */,
+				52C68952F7289909F2C30D7457F3D43D /* ReSwift-Info.plist */,
+				EFFF5D3BDADC85D38023A8D1E56585AA /* ReSwift-prefix.pch */,
+				4476CFDE7DFA9E88C92A32319ED486BE /* ReSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReSwift";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		121D32B71880A09118E042D2347603FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D06D96B3AD5A8A536EFFAD86231B402 /* ReSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F259B83E318B89109883016B20B62D2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -208,17 +312,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BFE17B30D4FBF631A44DC882796491EC /* Headers */ = {
+		BEF12869E30EC4444F035FAEE795A953 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D8B01CC3F314024A9582C2C69B5FC81 /* Pods-CorporateBanking-umbrella.h in Headers */,
+				8E465D3BFA70A6F0D71EDFD06633896F /* Pods-CorporateBanking-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		06A34427C22F307D518EF6B83B76871C /* ReSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4FC337117CBE98371E1D7652F719A1 /* Build configuration list for PBXNativeTarget "ReSwift" */;
+			buildPhases = (
+				121D32B71880A09118E042D2347603FA /* Headers */,
+				8B38C84EFAF544EAEBC8BE206D5ECA14 /* Sources */,
+				6E615E8437810518095AAF044A6AB39E /* Frameworks */,
+				3431893D474F6BED53BF64136BDAD625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReSwift;
+			productName = ReSwift;
+			productReference = 5C9505EE015CEE75EC8BCC4B205152F6 /* ReSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		1A4B97CAB38204795E83573A9538D0D6 /* Pods-CorporateBankingUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DB167A08050E2BE7750F45C6F2DD1BD /* Build configuration list for PBXNativeTarget "Pods-CorporateBankingUITests" */;
@@ -235,7 +357,26 @@
 			);
 			name = "Pods-CorporateBankingUITests";
 			productName = "Pods-CorporateBankingUITests";
-			productReference = 5A30F9C1949E1E5EA9D965206E8C7A0E /* Pods_CorporateBankingUITests.framework */;
+			productReference = 2B03A41DA81414F59726CCF5D211E7D9 /* Pods_CorporateBankingUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		433A77866DCF8447F4828F30D1A1642C /* Pods-CorporateBanking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 121E6722268DA2A552612DC6DDED1D15 /* Build configuration list for PBXNativeTarget "Pods-CorporateBanking" */;
+			buildPhases = (
+				BEF12869E30EC4444F035FAEE795A953 /* Headers */,
+				EF6655AA62F81F8DFD7AB9E5DC3570DF /* Sources */,
+				86F79088280043154775357278B8CF98 /* Frameworks */,
+				3887736F6AC9431E8573D6EAB76968D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E599926EEDB0491ED9B0AD59822FC59 /* PBXTargetDependency */,
+			);
+			name = "Pods-CorporateBanking";
+			productName = "Pods-CorporateBanking";
+			productReference = 9DE0DF28A9C7B109C50AD3213EBB442A /* Pods_CorporateBanking.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6F2E530C4F7138A6581C9DFDD19538DC /* Pods-CorporateBankingTests */ = {
@@ -254,25 +395,7 @@
 			);
 			name = "Pods-CorporateBankingTests";
 			productName = "Pods-CorporateBankingTests";
-			productReference = E4181722597C18518110EF936B6FB153 /* Pods_CorporateBankingTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B40918DC7A815C652B418A7CFC533167 /* Pods-CorporateBanking */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F4FC83402A37C8A4D6A382458A8340D7 /* Build configuration list for PBXNativeTarget "Pods-CorporateBanking" */;
-			buildPhases = (
-				BFE17B30D4FBF631A44DC882796491EC /* Headers */,
-				BB7D9603F1495275809DE06A4BCE1716 /* Sources */,
-				A7635E23140D63D2DC3DB3BA24F22F58 /* Frameworks */,
-				56FF4161C876081480B5594CFEB8F227 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-CorporateBanking";
-			productName = "Pods-CorporateBanking";
-			productReference = AAAB1CB63EAF73618F05634363B7E786 /* Pods_CorporateBanking.framework */;
+			productReference = 42D61030995078AA1250D7237841D19A /* Pods_CorporateBankingTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -292,19 +415,27 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 98E546C280640F4D725489A713B3528C /* Products */;
+			productRefGroup = 5F589F55B2854AB03D91A0AD0C354E93 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B40918DC7A815C652B418A7CFC533167 /* Pods-CorporateBanking */,
+				433A77866DCF8447F4828F30D1A1642C /* Pods-CorporateBanking */,
 				6F2E530C4F7138A6581C9DFDD19538DC /* Pods-CorporateBankingTests */,
 				1A4B97CAB38204795E83573A9538D0D6 /* Pods-CorporateBankingUITests */,
+				06A34427C22F307D518EF6B83B76871C /* ReSwift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		56FF4161C876081480B5594CFEB8F227 /* Resources */ = {
+		3431893D474F6BED53BF64136BDAD625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3887736F6AC9431E8573D6EAB76968D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -344,27 +475,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB7D9603F1495275809DE06A4BCE1716 /* Sources */ = {
+		8B38C84EFAF544EAEBC8BE206D5ECA14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FBB8FEA764D77C96A93AB2EC7E516D6 /* Pods-CorporateBanking-dummy.m in Sources */,
+				3EF18F2A83CD5FD4A58873A350BDF3F6 /* Action.swift in Sources */,
+				9F001001704E6B0B3B48F7AF61A300D1 /* Assertions.swift in Sources */,
+				FFCE4DA66C5742856FFEEADBACF235C2 /* Coding.swift in Sources */,
+				F60FCD2C79DA97023A725E872B1E2D63 /* DispatchingStoreType.swift in Sources */,
+				ECCDB06D8FE25AC94EBC14B3AD204304 /* Middleware.swift in Sources */,
+				D0778EEA54A10B4C667235442E253B02 /* Reducer.swift in Sources */,
+				F77AE17AA90A3E8EDB2FB71523623717 /* ReSwift-dummy.m in Sources */,
+				56C29F43682951EE654039B91AC3BE91 /* State.swift in Sources */,
+				8DF917C5CEA5042B19DF1420AEA922D0 /* Store.swift in Sources */,
+				06E21E8E1B5270DD7340BD90E447C6C4 /* StoreSubscriber.swift in Sources */,
+				D77B86E622C5F81672CAFB6F5975D8F2 /* StoreType.swift in Sources */,
+				DD41A1315D588FE7A1AA93459749D187 /* Subscription.swift in Sources */,
+				67F905D9D74248FE4B36E5AF83C17965 /* TypeHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6655AA62F81F8DFD7AB9E5DC3570DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE37A177FEBBB93C0CF845E6FA13D3E /* Pods-CorporateBanking-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1E599926EEDB0491ED9B0AD59822FC59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReSwift;
+			target = 06A34427C22F307D518EF6B83B76871C /* ReSwift */;
+			targetProxy = EEDA37B984B726047C4D51DD4B9036F8 /* PBXContainerItemProxy */;
+		};
 		47C7CB2C81E97E9F743A6A1CE4AC8E71 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CorporateBanking";
-			target = B40918DC7A815C652B418A7CFC533167 /* Pods-CorporateBanking */;
+			target = 433A77866DCF8447F4828F30D1A1642C /* Pods-CorporateBanking */;
 			targetProxy = CC989F41603DE43BBAD86E37FF877C17 /* PBXContainerItemProxy */;
 		};
 		EDE23509827D4582ACBACB8193865A4C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CorporateBanking";
-			target = B40918DC7A815C652B418A7CFC533167 /* Pods-CorporateBanking */;
+			target = 433A77866DCF8447F4828F30D1A1642C /* Pods-CorporateBanking */;
 			targetProxy = D421ADD4C4883C7CA17B6CAE41D272D2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -372,7 +529,7 @@
 /* Begin XCBuildConfiguration section */
 		0F1F110B9D8667C11DF0F7BE1D808909 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34E25C2013E3D9450A7755B384B4D2FC /* Pods-CorporateBankingTests.release.xcconfig */;
+			baseConfigurationReference = 2709FC13AD5F3053744B9D843DE32272 /* Pods-CorporateBankingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -411,7 +568,7 @@
 		};
 		22C7B290CCE8E2530EE9892D544681E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDCA90C3B5E7F921BB6FAE1A101B6A8A /* Pods-CorporateBankingUITests.debug.xcconfig */;
+			baseConfigurationReference = EC4615EFD82AA854933DC61C08AB1699 /* Pods-CorporateBankingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -511,47 +668,9 @@
 			};
 			name = Debug;
 		};
-		6B9BE74D0C7AA88B6C5EC65A85AE6A83 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF7F33AE92D1E9FAE5CCF149DC2955ED /* Pods-CorporateBanking.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CorporateBanking/Pods-CorporateBanking-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CorporateBanking/Pods-CorporateBanking.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		A80812BE5EEF68DE6C5C495C184E43CA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8781C30FA5DC2D02CF2E290750CBE301 /* Pods-CorporateBankingUITests.release.xcconfig */;
+			baseConfigurationReference = 1FA48B97CB6B535B7886D7F15E466188 /* Pods-CorporateBankingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -648,9 +767,44 @@
 			};
 			name = Release;
 		};
+		DA70231D9E43D6A56A5BD00EE4190F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F5E2D7FD03673F72A49361D88182528 /* ReSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReSwift/ReSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReSwift/ReSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReSwift/ReSwift.modulemap";
+				PRODUCT_MODULE_NAME = ReSwift;
+				PRODUCT_NAME = ReSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		DE0321F65B2499DD011A99DE90B58F90 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10110D6759FF43CABF318E76CE27ED8C /* Pods-CorporateBankingTests.debug.xcconfig */;
+			baseConfigurationReference = D1D859D2A36280BE3AD44156367F39B5 /* Pods-CorporateBankingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -686,9 +840,9 @@
 			};
 			name = Debug;
 		};
-		FC66C0E50EBCA334C2908E8749697AF0 /* Release */ = {
+		DFF417556F35B72BF8AB92C3AF05F68C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75627F5EFA90A0F21998F74EA4383AEF /* Pods-CorporateBanking.release.xcconfig */;
+			baseConfigurationReference = E04E147A030E851333EDBE869944F19C /* Pods-CorporateBanking.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -725,14 +879,106 @@
 			};
 			name = Release;
 		};
+		EAD1CEBA68F81C16AD2CD3191DDC0E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F5E2D7FD03673F72A49361D88182528 /* ReSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReSwift/ReSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReSwift/ReSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReSwift/ReSwift.modulemap";
+				PRODUCT_MODULE_NAME = ReSwift;
+				PRODUCT_NAME = ReSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EFA92CD7DECBA3DD42281995863F2B51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFA6DB2CE360A9B466585FE05D472674 /* Pods-CorporateBanking.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CorporateBanking/Pods-CorporateBanking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CorporateBanking/Pods-CorporateBanking.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		121E6722268DA2A552612DC6DDED1D15 /* Build configuration list for PBXNativeTarget "Pods-CorporateBanking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA92CD7DECBA3DD42281995863F2B51 /* Debug */,
+				DFF417556F35B72BF8AB92C3AF05F68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				493189177FD095E8F1CC0EC9207AC862 /* Debug */,
 				C81EA092D14AE1D1D944AE64377DAA4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4FC337117CBE98371E1D7652F719A1 /* Build configuration list for PBXNativeTarget "ReSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA70231D9E43D6A56A5BD00EE4190F81 /* Debug */,
+				EAD1CEBA68F81C16AD2CD3191DDC0E2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -751,15 +997,6 @@
 			buildConfigurations = (
 				22C7B290CCE8E2530EE9892D544681E9 /* Debug */,
 				A80812BE5EEF68DE6C5C495C184E43CA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F4FC83402A37C8A4D6A382458A8340D7 /* Build configuration list for PBXNativeTarget "Pods-CorporateBanking" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6B9BE74D0C7AA88B6C5EC65A85AE6A83 /* Debug */,
-				FC66C0E50EBCA334C2908E8749697AF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

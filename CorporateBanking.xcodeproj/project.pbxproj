@@ -111,7 +111,6 @@
 				173A520EC630FD8D80362CBE /* Pods-CorporateBankingUITests.debug.xcconfig */,
 				7194282F892C201444D5B430 /* Pods-CorporateBankingUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,6 +139,9 @@
 		729D68042337A5C500E69D79 /* CorporateBanking */ = {
 			isa = PBXGroup;
 			children = (
+				729D68352337ACCA00E69D79 /* Reducers */,
+				729D68372337AD4600E69D79 /* State */,
+				729D68362337ACD500E69D79 /* Actions */,
 				729D68052337A5C600E69D79 /* AppDelegate.swift */,
 				729D68072337A5C600E69D79 /* SceneDelegate.swift */,
 				729D68092337A5C600E69D79 /* ViewController.swift */,
@@ -169,6 +171,27 @@
 			path = CorporateBankingUITests;
 			sourceTree = "<group>";
 		};
+		729D68352337ACCA00E69D79 /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		729D68362337ACD500E69D79 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		729D68372337AD4600E69D79 /* State */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,6 +203,7 @@
 				729D67FE2337A5C500E69D79 /* Sources */,
 				729D67FF2337A5C500E69D79 /* Frameworks */,
 				729D68002337A5C500E69D79 /* Resources */,
+				0F871A8D5EFFC94D29F5FBA0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -299,6 +323,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0F871A8D5EFFC94D29F5FBA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CorporateBanking/Pods-CorporateBanking-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CorporateBanking/Pods-CorporateBanking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		DCEC5ACB72BFA23B4E11BE90 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
